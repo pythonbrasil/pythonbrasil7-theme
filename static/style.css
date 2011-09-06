@@ -1,0 +1,249 @@
+/* reset */
+* {margin:0; padding:0; vertical-align:baseline;}
+
+/* Columns */
+#wrapper, #nav {width: 960px; margin: 0 auto;}
+#portal-columns {margin-top: 10px;}
+
+div.position-3\:4 {margin-left: -27%;}
+div.position-0 {margin-left: -98.875%;}
+div.width-1\:4 {width: 27%;}
+div.width-3\:4 {width: 70%;}
+
+/* styles */
+body {background: #fff url(bg.jpg) repeat-x top center; color: #000; font-family: Arial, Helvetica, sans-serif;	font-size: 62.5%;}
+#wrapper {
+font-size: 1.2em; 
+background: url(column-bg.jpg) repeat-x scroll 0 0 #FFFFFF; 
+padding: 0 0 10px 0;
+border-radius: 5px 5px 0 0;
+-moz-border-radius: 5px 5px 0 0;
+-webkit-border-radius: 5px 5px 0 0;
+}
+#portal-personaltools {font-size: 1.1em;}
+
+/*basic*/
+a {color: #205C90;}
+p {line-height: 1.8em;margin: 0 0 1em 0;}
+h1 {font-size: 2.5em;}
+h1, h2, h3 {margin: 20px 0 10px 0;}
+h1 {color: #205c90;}
+.hidden {display: none;}
+.clear {clear: both;}
+#content a:hover {color: #000 !important;}
+dl.portlet a:link, dl.portlet a:hover, dl.portlet a:visited {color: #fff !important; border-bottom: none;}
+
+/* top */
+#user li {background: #fbab18; display: inline; float:right; padding: 1em;}
+#header {background: transparent; font-size: 1.2em; padding: 20px 30px 0 30px;}
+#logo {float: left;}
+#cidade {float: right;}
+
+/* search */
+#portal-searchbox {margin: -49px -20px 1.2em 0; position: relative; z-index: 4;}
+#searchGadget {border:1px solid #8EABBB; width:160px; padding: 0.2em; }
+.searchSection {padding-top:8px; color:#000000; }
+input.searchButton {
+background:#fbab18;
+padding:2px 8px;
+border-radius: 0.5em;
+-moz-border-radius: 0.5em;
+-webkit-border-radius: 0.5em;
+color:#FFFFFF;
+border:0;
+font-weight:bold;
+margin-left: 0.2em;
+}
+
+/* navigation */
+#portal-globalnav {
+background: #2271a9;
+text-align: left;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+margin: 5px 0 0 0;
+border-bottom: 1px solid #FFFFFF;
+height: 33px;
+}
+
+
+#nav li {border: none; background: transparent; display: inline; list-style: none; margin-left:10px;}
+#nav li a,
+#nav li.selected a,
+#nav li a:hover {
+border: none;
+background: transparent;
+color: #fff;
+font-size: 1.5em;
+font-weight: bold;
+line-height: 200%;
+text-decoration: none;
+padding: 6px 10px;
+min-width: 1em !important;
+}
+#nav li.selected {background: #e3e3e3;}
+#nav li.selected a {color: #2271a9;}
+#nav li a:hover, #nav li.selected a:hover {color: #FBAB18;}
+#nav .submenu, #nav .submenu li {margin: 0; padding: 0;}
+#nav .submenu li a {padding: 3px 5px;}
+.submenu {
+-moz-box-shadow: 3px 3px 3px #666;
+-webkit-box-shadow: 3px 3px 3px #666;
+box-shadow: 3px 3px 3px #666;
+margin-top: -5px;
+}
+#portal-globalnav ul.submenu li a {color: #2271a9 !important;}
+#portal-globalnav ul.submenu li a:hover {background: #2271a9 !important; color: #fff !important;}
+
+/* content */
+#main {background: transparent; font-size: 1.2em;padding: 1em 0;min-height: 400px; padding: 1em 1.5em;}
+
+/* portlets */
+
+.portlet {margin-bottom: 20px; padding-bottom: 40px;}
+
+.visualPadding div dl.portlet {border-color: transparent;}
+
+dl.portlet dt, div.portletAssignments div.portletHeader {
+background: transparent;
+color: #fff;
+font-weight: bold;
+font-size: 1.5em;
+margin-left:0;
+padding: 8px 0 2px 8px;
+}
+
+.portletHeader a {color: #fff;font-weight: bold;}
+dl.portlet dt a:link, dl.portlet dt a:visited, dl.portlet dt a:hover {color: #fff;}
+dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {padding: 1em;}
+dl.portlet a {color: #fff;}
+
+.portletCalendar dt a#calendar-next {margin: 0;}
+.portletCalendar dt a#calendar-previous {margin: 0 -0.8em;}
+.ploneCalendar .weekdays th {background-color: #fff; border-bottom: 1px solid #F1F1F1;}
+
+dl.portlet {
+background: url("portletBackground.jpg") no-repeat scroll right bottom #2370A8;
+border-radius: 0.5em;
+-moz-border-radius:  0.5em;
+-webkit-border-radius: 0.5em;
+margin-bottom: 20px;
+}
+
+
+/* trilhas */
+.stats_box {
+    background: none repeat scroll 0 0 #F1F1F1;
+    color: #CCCCCC;
+    float: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 140px;
+}
+.stats_number {
+display: block;
+text-align: right;
+font-size: 3em;
+}
+
+.track {
+    border: 1px solid #F1F1F1;
+    float: left;
+    margin: 1% 2% 1% 0;
+    padding: 1%;
+    width: 45%;
+    min-height: 110px;
+}
+.track img {float: right;}
+.track_title {font-weight:bold; font-size: 1.3em;}
+
+.talks, .tracks {clear: left; padding-top: 20px;}
+
+/* profiles */
+.speaker_profile img {
+float: right; 
+border: 10px solid #2271a9;
+margin: 35px;
+-webkit-transform: rotate(7deg);
+-moz-transform: rotate(7deg);
+transform: rotate(7deg);
+-moz-box-shadow: 3px 3px 3px #f1f1f1;
+-webkit-box-shadow: 3px 3px 3px #f1f1f1;
+box-shadow: 3px 3px 3px #f1f1f1;
+border-radius: 11px;
+-moz-border-radius: 11px;
+-webkit-border-radius: 11px;
+}
+.speaker_name {
+font-size: 2em;
+font-weight: bold;
+display: block;
+color: #2271a9;
+}
+.speaker_bio {
+	display: block;
+}
+
+
+/* patrocinadores */
+#patrocinadores {padding: 20px 40px;}
+#patrocinadores dt {
+    border-bottom: 1px solid #F1F1F1;
+    color: #CCCCCC;
+    margin: 20px 0 10px;
+}
+
+/* footer */
+#footer {
+background: #2271a9;
+font-size: 1em;
+text-align: left;
+color: #fff;
+border: none;
+margin:10px;
+padding: 10px;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+
+#footer a, #footer a:visited {color: #fff;}
+#footer  img {
+float:left;
+margin-right:25px;
+clear: left;
+}
+
+
+#talks_ordering {
+width: 100%;
+}
+
+td.talk_details {
+    background: url("setas.png") no-repeat right center transparent !important;
+    padding-right: 50px !important;
+}
+
+td.talk_ordering {
+width: 10px !important;
+text-align: center;
+}
+
+a.talk_details_link {
+    background: url("lupa-detalhes.png") no-repeat right center !important;
+    padding-right: 20px !important;
+}
+
+ 
+.voter {
+    border: 1px solid #E1E1E1;
+    float: left;
+    margin: 1% 2% 1% 0;
+    padding: 1%;
+    width: 25%;
+    min-height: 48px;
+}
