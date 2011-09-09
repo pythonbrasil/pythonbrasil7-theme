@@ -224,11 +224,25 @@ clear: left;
 	width: 18%;
 	margin-right: 2%
 }
-
-.blocos ul {
-	margin: 12px;
+.blocos h3 {
+    margin: 10px 0px 0px 0px;
+    color:#ddd;
 }
 
+.blocos ul {
+	margin: 12px 0px;
+}
+
+.blocos li {
+    list-style:none;
+    margin:4px 0px;
+}
+
+.bottom_info {
+    padding-top: 10px !important;
+    text-align: center;
+    font-size: smaller;
+}
 
 /* inscricoes */
 .lista-precos {text-align: center !important; width: 100%;}
