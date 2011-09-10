@@ -236,6 +236,7 @@ clear: left;
 .blocos li {
     list-style:none;
     margin:4px 0px;
+    display: block;
 }
 
 .bottom_info {
