@@ -196,6 +196,10 @@ color: #2271a9;
     color: #CCCCCC;
     margin: 20px 0 10px;
 }
+#patrocinadores dd a img{
+    vertical-align:middle;
+}
+
 
 /* footer */
 #footer {
